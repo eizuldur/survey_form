@@ -8,13 +8,112 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
->
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <p>Survey Website</p>
+  <h1 id="title">Milk Tea Survey </h1>
+
+  <p id="description">Survey for Milk Tea Drinkers</p>
+
+  <form id="survey-form" action="index.html" method="post">
+    <div class="row-tab">
+      <div class="label-milktea">
+        <label for="name" id="name-label">Name</label>
+      </div>
+      <div class="input-milktea">
+        <input id="name" type="text" name="name"  placeholder="Enter your name" required>
+      </div>
+    </div>
+    <div class="row-tab">
+      <div class="label-milktea">
+        <label for="email" id="email-label">Email</label>
+      </div>
+      <div class="input-milktea">
+        <input id="email" type="email" name="email"  placeholder="Enter your email" required>
+      </div>
+    </div>
+    <div class="row-tab">
+      <div class="label-milktea">
+        <label for="number" id="number-label">Number</label>
+      </div>
+      <div class="input-milktea">
+        <input id="number" type="number" name="number" placeholder="qty" min=1 max=10>
+      </div>
+    </div>
+
+    <div class="row-tab">
+      <div class="label-select">
+        <label for="">Select Fav Milk Tea Flavor</label>
+      </div>
+      <div class="select-input">
+        <select id="dropdown" name="milktea">
+          <option value="wintermelon">Wintermelon</option>
+          <option value="okinawa">Okinawa</option>
+          <option value="jasmine">Jasmine</option>
+          <option value="cheesecake">Cheesecake</option>
+          <option value="roasted">Roasted</option>
+        </select>
+      </div>
+    </div>
+    <div class="row-tab">
+      <div class="labels-radio">
+        Milk Teas Shops:
+      </div>
+      <div class="input-radio">
+        <div>
+          <label">Macao
+            <input type="radio" name="shop" value="macao">
+          </label>
+        </div>
+        <div>
+          <label>Dakasi
+            <input type="radio" name="shop" value="dakasi">
+          </label>
+        </div>
+        <div >
+          <label>Serenitea
+            <input type="radio" name="shop" value="serenitea">
+          </label>
+        </div>
+        <div class="">
+          <label for="">Tiger Sugar
+            <input type="radio" name="shop" value="tiger sugar">
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row-tab">
+      <div class="labels-checkbox">
+        <label for="">Toppings: </label>
+      </div>
+      <div class="input-checkbox">
+        <div>
+          <label>Pudding
+            <input type="checkbox" name="shop" value="pudding">
+          </label>
+        </div>
+        <div>
+          <label>Coffee Jelly
+            <input type="checkbox" name="shop" value="coffee jekky">
+          </label>
+        </div>
+        <div>
+          <label>Tapioca Pearl
+            <input type="checkbox" name="shop" value="tapioca pearl">
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row-tab">
+          <textarea name="name" rows="8" cols="80">Enter your comments here:</textarea>
+    </div>
+    <div class="row-tab">
+          <button id="submit" type="submit" name="submit">Submit</button>
+    </div>
+
+  </form>
 
 
 </body>

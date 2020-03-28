@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+
+
+
+}
+
+form{
+  background-color: lightblue;
+}
+
+#survey-form {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.row-tab {
+    display: block;
+    padding-top: 15px;
+}
+
+.label-milktea {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.input-milktea {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.label-select {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.select-input {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.labels-radio {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.input-radio{
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.labels-checkbox {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.input-checkbox {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
